@@ -34,6 +34,10 @@ li {
   flex-direction: column;
 }
 
+.form {
+  align-items: center;
+}
+
 h2 {
   color: tomato;
   font-size: 2em;
