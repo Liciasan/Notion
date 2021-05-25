@@ -9,22 +9,24 @@
 <body>
     <div class="wrap">
         <div class="login">
-        <form>
-            <h2>비밀번호</h2>        
-            <div class="login_pw">
-                <input type="password" name="pwd" id="" placeholder="Password">
+            <div class="form">
+                <form>
+                    <h2>비밀번호</h2>
+                    <div class="login_pw">
+                        <input type="password" name="pwd" id="" placeholder="Password">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                        <script>
+                            if(pwd == dndjd) {
+                                location.href="orig-licia.tistory.com";
+                            } else {
+                                location.reload();
+                            }
+                        </script>
+                    </div>
+                </form>
             </div>
-            <div class="submit">
-                <input type="submit" value="Submit">
-                <script>
-                    if(pwd == dndjd) {
-                        location.href="orig-licia.tistory.com";
-                    } else {
-                        location.reload();
-                    }
-                </script>
-            </div>
-        </form>
         </div>
     </div>
 </body>
