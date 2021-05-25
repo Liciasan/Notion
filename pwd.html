@@ -8,15 +8,23 @@
 </head>
 <body>
     <div class="wrap">
-        <div class="login">
+        <form>
             <h2>비밀번호</h2>        
             <div class="login_pw">
-                <input type="password" name="" id="" placeholder="Password">
+                <input type="password" name="pwd" id="" placeholder="Password">
             </div>
             <div class="submit">
                 <input type="submit" value="Submit">
+                <script>
+                    password = pwd;
+                    if(password == dndjd) {
+                        location.href="orig-licia.tistory.com";
+                    } else {
+                        location.reload();
+                    }
+                </script>
             </div>
-        </div>
+        </form>
     </div>
 </body>
 
