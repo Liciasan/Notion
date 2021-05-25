@@ -39,6 +39,19 @@ h2 {
   font-size: 2em;
 }
 
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
 .login_pw {
   margin-top: 20px;
   width: 80%;
