@@ -34,7 +34,8 @@ li {
   flex-direction: column;
 }
 
-form {
+.form {
+  display: block;
   align-items: center;
 }
 
