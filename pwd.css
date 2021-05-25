@@ -39,6 +39,14 @@ li {
   text-align: center;
 }
 
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
 h2 {
   color: tomato;
   font-size: 2em;
