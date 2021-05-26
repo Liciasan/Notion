@@ -24,8 +24,8 @@ li {
 }
 
 .login {
-  width: 30%;
-  height: 600px;
+  width: 50%;
+  height: 100vh;
   background: white;
   border-radius: 20px;
   display: flex;
@@ -40,7 +40,7 @@ h2 {
 }
 
 .form {
-  background: powderblue;
+  width: 100%;
 }
 
 .login_pw {
