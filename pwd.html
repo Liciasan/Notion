@@ -13,7 +13,7 @@
             <div class="form">
                 <form>
                     <div class="login_pw">
-                        <input type="password" name="pwd" id="" placeholder="Password">
+                        <input type="password" name="" id="pwd" placeholder="Password">
                     </div>
                     <div class="button">
                         <input type="button" value="Submit">
@@ -22,6 +22,17 @@
             </div>
         </div>
     </div>
+    <script>
+        function script1() {
+            var password = document.getElementById("pwd");
+            var pass1="dndjd";
+            if (password.value==pass1) {
+                window.location="https://orig-licia.tistory.com";
+            } else {
+                window.location.reload(true);
+            }
+        }
+    </script>
 </body>
 
 </html>
