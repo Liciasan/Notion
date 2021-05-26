@@ -39,6 +39,10 @@ h2 {
   font-size: 2em;
 }
 
+.form {
+  background-color: powderblue;
+}
+
 .login_pw {
   margin-top: 20px;
   width: 80%;
