@@ -4,6 +4,7 @@
 
     <div id="player"></div>
 
+
     <script>
 
       var tag = document.createElement('script');
@@ -16,10 +17,10 @@
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '100%',
-          width: '100%',
+          height: '100vh',
+          width: '100vw',
           videoId: 'd-9S5b_YCFw',
-          playerVars: { 'autoplay': 1, 'fs': 0, loop: 1, modestbranding: 1, rel: 0 },
+          playerVars: { 'autoplay': 1, 'modestbranding': 1, 'fs': 0, 'loop': 1 },
           events: {
             'onReady': onPlayerReady
           }
